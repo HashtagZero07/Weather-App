@@ -1,0 +1,44 @@
+header{
+
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(145, 145, 223);
+
+
+}
+
+main{
+
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+
+}
+
+.searchInput{
+
+    display: block;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 60px;
+
+}
+
+.searchButton{
+
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 110px;
+    padding: 10px;
+    border: .5px solid black;
+    border-radius: 5px;
+    box-shadow: 30px grey;
+}
